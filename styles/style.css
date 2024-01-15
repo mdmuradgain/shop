@@ -2,3 +2,51 @@
 body{
   font-family: 'Poppins', sans-serif;
 }
+header{
+  background-color:bisque;
+}
+/* Navbar Style Start Here */
+.header_section{
+  display: flex;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+  border: 2px solid teal;
+}
+.nav_container{
+  border: 4px solid red;
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav_container img{
+  width: 50px;
+  object-fit: cover;
+}
+.nav_container p{
+  font-size: 25px;
+  font-weight: 500;
+}
+.special{
+  color: chocolate;
+  font-weight: 900;
+}
+.item_container{
+  border: 2px solid green;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item_container a{
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  
+}
+.login_btn{
+  background-color: aquamarine;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
